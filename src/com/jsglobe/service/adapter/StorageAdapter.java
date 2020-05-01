@@ -1,10 +1,11 @@
 package com.jsglobe.service.adapter;
 
+import com.jsglobe.service.NetworkDevice;
 import com.jsglobe.service.Storage;
 
 import java.awt.*;
 
-public class StorageAdapter implements DeviceAdapter {
+public class StorageAdapter  extends BaseAdapter implements DeviceAdapter {
     private final Point point;
     private final Storage storage;
 
@@ -19,7 +20,11 @@ public class StorageAdapter implements DeviceAdapter {
     }
 
     @Override
-    public void draw(Graphics graphics) {
+    public NetworkDevice getDevice() {
+        return storage;
+    }
+
+    protected void drawIcon(Graphics graphics) {
         final int x = point.x;
         final int y = point.y - 50;
         graphics.setColor(Color.YELLOW);

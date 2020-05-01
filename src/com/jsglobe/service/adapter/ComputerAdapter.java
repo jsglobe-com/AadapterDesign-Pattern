@@ -1,16 +1,17 @@
 package com.jsglobe.service.adapter;
 
 import com.jsglobe.service.Computer;
+import com.jsglobe.service.NetworkDevice;
 
 import java.awt.*;
 
-public class ComputerAdapter implements DeviceAdapter {
+public class ComputerAdapter extends BaseAdapter implements DeviceAdapter {
     private final Point point;
-    private final Computer computer;
+    protected final Computer computer;
 
     public ComputerAdapter(Computer device, Point point) {
         computer = device;
-        this.point =point;
+        this.point = point;
     }
 
     @Override
@@ -19,7 +20,11 @@ public class ComputerAdapter implements DeviceAdapter {
     }
 
     @Override
-    public void draw(Graphics graphics) {
+    public NetworkDevice getDevice() {
+        return computer;
+    }
+
+    protected void drawIcon(Graphics graphics) {
         final int x = point.x;
         final int y = point.y - 40;
         graphics.setColor(Color.darkGray);

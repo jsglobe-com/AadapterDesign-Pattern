@@ -1,11 +1,12 @@
 package com.jsglobe.service.adapter;
 
+import com.jsglobe.service.NetworkDevice;
 import com.jsglobe.service.Printer;
 import com.jsglobe.service.Random;
 
 import java.awt.*;
 
-public class PrinterAdapter implements DeviceAdapter {
+public class PrinterAdapter  extends BaseAdapter implements DeviceAdapter {
     private final Printer printer;
     private final Point point;
 
@@ -20,7 +21,11 @@ public class PrinterAdapter implements DeviceAdapter {
     }
 
     @Override
-    public void draw(Graphics graphics) {
+    public NetworkDevice getDevice() {
+        return printer;
+    }
+
+    protected void drawIcon(Graphics graphics) {
         final int x = point.x;
         final int y = point.y - 50;
         graphics.setColor(Color.LIGHT_GRAY);
