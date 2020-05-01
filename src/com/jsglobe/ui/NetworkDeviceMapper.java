@@ -1,4 +1,11 @@
 package com.jsglobe.ui;
 
-public class NetworkDeviceMapper {
+import com.jsglobe.service.NetworkDevice;
+import com.jsglobe.service.adapter.DeviceAdapter;
+
+import java.awt.*;
+import java.util.List;
+
+public interface NetworkDeviceMapper {
+    List<DeviceAdapter> map(List<NetworkDevice> devices, Dimension size);
 }

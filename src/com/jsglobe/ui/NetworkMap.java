@@ -1,12 +1,12 @@
 package com.jsglobe.ui;
 
-import com.jsglobe.service.*;
 import com.jsglobe.service.adapter.DeviceAdapter;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class NetworkMap extends JPanel {
     private Map<String, DeviceAdapter> deviceMap = new HashMap<>();
@@ -14,6 +14,7 @@ public class NetworkMap extends JPanel {
     @Override
     public void paint(Graphics g) {
         super.paintComponents(g);
+        g.setColor(Color.WHITE);
         g.fillRect(0, 0, getWidth(), getHeight());
         g.setColor(Color.BLACK);
         g.drawRect(0, 0, getWidth() - 1, getHeight() - 1);

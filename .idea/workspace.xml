@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0585f42-371b-4c7b-8bb7-6c04a48c03ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/BaseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/ui/CircularMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/ui/NetworkDeviceMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/ComputerAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/ComputerAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/DeviceAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/DeviceAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/PrinterAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/PrinterAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/StorageAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/adapter/StorageAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/ui/MainForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/ui/MainForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/ui/NetworkMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/ui/NetworkMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/ComputerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/ComputerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/DeviceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/DeviceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/PrinterAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/PrinterAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/StorageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/StorageAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jsglobe/ui/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/ui/MainForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jsglobe/ui/NetworkMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/ui/NetworkMap.java" afterDir="false" />
     </list>
@@ -47,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jsglobe.ui" />
       <recent name="com.jsglobe.service.adapter" />
       <recent name="com.jsglobe.service" />
     </key>
@@ -76,34 +70,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1093" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1588368169149">
+    <state x="1093" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1588369588251">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1093" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588368169149" />
+    <state x="1093" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369588251" />
     <state x="1093" y="417" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1364@0.23.2560.1364" timestamp="1588360403978" />
     <state x="969" y="451" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588365375322">
       <screen x="0" y="23" width="2560" height="1364" />
     </state>
     <state x="969" y="451" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2560.1364@0.23.2560.1364" timestamp="1588365375322" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1588369258822">
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1588369885329">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369258822" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369885329" />
     <state width="2518" height="391" key="GridCell.Tab.0.bottom/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490210" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1588369258820">
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1588369885327">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369258820" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369885327" />
     <state width="2518" height="391" key="GridCell.Tab.0.center/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490209" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1588369258820">
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1588369885326">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369258820" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369885326" />
     <state width="2518" height="391" key="GridCell.Tab.0.left/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490208" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1588369258821">
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1588369885327">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369258821" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588369885327" />
     <state width="2518" height="391" key="GridCell.Tab.0.right/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490209" />
     <state width="2518" height="480" key="GridCell.Tab.1.bottom" timestamp="1588365341467">
       <screen x="0" y="23" width="2560" height="1364" />
