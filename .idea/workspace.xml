@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0585f42-371b-4c7b-8bb7-6c04a48c03ef" name="Default Changelist" comment="" />
+    <list default="true" id="e0585f42-371b-4c7b-8bb7-6c04a48c03ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/AdapterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/ComputerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/DeviceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/PrinterAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jsglobe/service/adapter/StorageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/NetworkDiscoveryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/service/NetworkDiscoveryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/ui/NetworkMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Adaptor/com/jsglobe/ui/NetworkMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jsglobe/service/NetworkDiscoveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/service/NetworkDiscoveryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jsglobe/ui/NetworkMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jsglobe/ui/NetworkMap.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bJkoQCN6Ver2olMUujuIKQ90FS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,10 +39,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jsglobe.service.adapter" />
       <recent name="com.jsglobe.service" />
     </key>
   </component>
@@ -55,30 +73,35 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1093" y="417" key="#com.intellij.ide.util.MemberChooser" timestamp="1588360403978">
-      <screen x="0" y="23" width="2560" height="1364" />
+    <state x="1093" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1588366912414">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="1093" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588366912414" />
     <state x="1093" y="417" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1364@0.23.2560.1364" timestamp="1588360403978" />
     <state x="969" y="451" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588365375322">
       <screen x="0" y="23" width="2560" height="1364" />
     </state>
     <state x="969" y="451" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2560.1364@0.23.2560.1364" timestamp="1588365375322" />
-    <state width="2518" height="391" key="GridCell.Tab.0.bottom" timestamp="1588365450120">
-      <screen x="0" y="23" width="2560" height="1364" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1588367334813">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="391" key="GridCell.Tab.0.bottom/0.23.2560.1364@0.23.2560.1364" timestamp="1588365450120" />
-    <state width="2518" height="391" key="GridCell.Tab.0.center" timestamp="1588365450119">
-      <screen x="0" y="23" width="2560" height="1364" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588367334813" />
+    <state width="2518" height="391" key="GridCell.Tab.0.bottom/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490210" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1588367334811">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="391" key="GridCell.Tab.0.center/0.23.2560.1364@0.23.2560.1364" timestamp="1588365450119" />
-    <state width="2518" height="391" key="GridCell.Tab.0.left" timestamp="1588365450119">
-      <screen x="0" y="23" width="2560" height="1364" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588367334811" />
+    <state width="2518" height="391" key="GridCell.Tab.0.center/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490209" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1588367334811">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="391" key="GridCell.Tab.0.left/0.23.2560.1364@0.23.2560.1364" timestamp="1588365450119" />
-    <state width="2518" height="391" key="GridCell.Tab.0.right" timestamp="1588365450120">
-      <screen x="0" y="23" width="2560" height="1364" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588367334811" />
+    <state width="2518" height="391" key="GridCell.Tab.0.left/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490208" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1588367334812">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="391" key="GridCell.Tab.0.right/0.23.2560.1364@0.23.2560.1364" timestamp="1588365450120" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588367334812" />
+    <state width="2518" height="391" key="GridCell.Tab.0.right/0.23.2560.1364@0.23.2560.1364" timestamp="1588365490209" />
     <state width="2518" height="480" key="GridCell.Tab.1.bottom" timestamp="1588365341467">
       <screen x="0" y="23" width="2560" height="1364" />
     </state>
@@ -103,9 +126,10 @@
       <screen x="0" y="23" width="2560" height="1364" />
     </state>
     <state x="1019" y="468" key="extract.method.dialog/0.23.2560.1364@0.23.2560.1364" timestamp="1588363173543" />
-    <state x="946" y="337" width="670" height="676" key="search.everywhere.popup" timestamp="1588363999297">
-      <screen x="0" y="23" width="2560" height="1364" />
+    <state x="946" y="331" width="670" height="714" key="search.everywhere.popup" timestamp="1588367293621">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="946" y="331" width="670" height="714" key="search.everywhere.popup/0.0.2560.1440/-1792.857.1792.1120@0.0.2560.1440" timestamp="1588367293621" />
     <state x="946" y="337" width="670" height="676" key="search.everywhere.popup/0.23.2560.1364@0.23.2560.1364" timestamp="1588363999297" />
   </component>
 </project>

@@ -2,6 +2,8 @@ package com.jsglobe.ui;
 
 import com.jsglobe.service.*;
 import com.jsglobe.service.Random;
+import com.jsglobe.service.adapter.AdapterFactory;
+import com.jsglobe.service.adapter.DeviceAdapter;
 
 import javax.swing.*;
 import java.awt.*;
@@ -44,78 +46,10 @@ public class NetworkMap extends JPanel {
     }
 
     private void paintDevice(Graphics g, NetworkDevice device, Point point) {
-        if (device instanceof Printer) {
-            paintPrinter(g, point);
-        } else if (device instanceof Storage) {
-            paintStorage(g, point);
-        } else if (device instanceof Computer) {
-            paintComputer(g, point);
-        }
+        final DeviceAdapter adapter = AdapterFactory.create(device,point);
 
+        adapter.draw(g);
         drawTitle(g, device, point);
-    }
-
-    private void paintComputer(Graphics g, Point point) {
-        final int x = point.x;
-        final int y = point.y - 40;
-        g.setColor(Color.darkGray);
-        g.fillRoundRect(x, y, 30, 30, 10, 10);
-        g.setColor(Color.BLACK);
-        g.drawRoundRect(x, y, 30, 30, 10, 10);
-
-        g.setColor(Color.lightGray);
-        g.fillRoundRect(x + 5, y + 5, 20, 20, 5, 5);
-        g.setColor(Color.BLACK);
-        g.drawRoundRect(x + 5, y + 5, 20, 20, 5, 5);
-    }
-
-    private void paintPrinter(Graphics g, Point point) {
-        final int x = point.x;
-        final int y = point.y - 50;
-        g.setColor(Color.lightGray);
-        g.fillRoundRect(x, y + 10, 40, 25, 5, 10);
-
-        g.setColor(Color.BLACK);
-        g.drawRoundRect(x, y + 10, 40, 25, 5, 10);
-
-        g.setColor(Color.WHITE);
-        g.fillRect(x + 5, y + 5, 30, 20);
-
-        g.setColor(Color.BLACK);
-        g.drawRect(x + 5, y + 5, 30, 20);
-
-        var delta = 10;
-        for (int i = 0; i < 5; i++) {
-            int extra = Random.number(3, 5);
-            g.drawLine(
-                    x + 10,
-                    y + delta,
-                    x + 20 + extra,
-                    y + delta
-            );
-            delta += 3;
-        }
-    }
-
-    private void paintStorage(Graphics g, Point point) {
-        final int x = point.x;
-        final int y = point.y - 50;
-        g.setColor(Color.YELLOW);
-        g.fillRect(x, y + 5, 30, 30);
-
-        g.setColor(Color.black);
-        g.drawRect(x, y + 5, 30, 30);
-
-        g.setColor(Color.YELLOW);
-        g.fillOval(x, y, 30, 10);
-        g.setColor(Color.black);
-        g.drawOval(x, y, 30, 10);
-
-        g.setColor(Color.YELLOW);
-        g.fillOval(x, y + 30, 30, 10);
-
-        g.setColor(Color.black);
-        g.drawArc(x, y + 30, 30, 10, 180, 180);
     }
 
     private Color statusColor(DeviceStatus status) {
